@@ -158,7 +158,7 @@ void showOptions() {
 	cout << "Enter your selection as a number 1, 2, or 3." << endl;
 }
 
-void runCode() {
+void runPython() {
 	showOptions();
 	int option = 0;
 
@@ -186,6 +186,7 @@ void runCode() {
 			break;
 		default:
 			cout << "Wrong choice." << endl;
+			break;
 		}
 		showOptions();
 		cout << endl;
@@ -193,5 +194,5 @@ void runCode() {
 }
 
 void main() {
-	runCode();
+	runPython();
 }

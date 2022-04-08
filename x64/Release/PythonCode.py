@@ -18,7 +18,7 @@ def SquareValue(v):
 
 def MultiplicationTable(v):
     for i in range(1, 11):
-        print(v, " x ", i, " = ", (v * i))
+        print(v, " X ", i, " = ", (v * i))
     return 0
 
 def DoubleValue(v):
